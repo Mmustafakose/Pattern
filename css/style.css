@@ -1,0 +1,137 @@
+.resimSlider {
+    height: 600px;
+}
+
+body {
+    margin-top: 50px;
+
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hakkimizda{
+    background-color: #f2f2f2;
+}
+
+.bosbirak{
+    padding-left: 15px;
+}
+
+/* Hakkımızda yazısının altındaki çizgi */
+.ayrac{
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto; 
+    
+}
+
+.igri{
+    color: #343a40;
+    position: relative; /*Akışı bozmadan yer değşitrme*/
+    top:-55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.ibeyaz{
+    color: #343a40;
+    position: relative; /*Akışı bozmadan yer değşitrme*/
+    top:-55px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+
+.bosluk{
+    margin-top:20px;
+}
+
+.ekipCard>img:hover{
+    opacity: 0.8;
+}
+
+.galeri{
+    background-color: #f2f2f2;
+}
+
+.figure:hover{
+    opacity: 0.8;/*hover üzerine geldiği zaman çalışır*/
+}
+
+.tabloGenislik{
+    width: 60%;
+}
+
+.tabloGenislik2{
+    width: 40%;
+    background-color: blue;
+    
+}
+
+.deneme{
+    background-color: red;
+}
+
+.tablo{
+    width: 100%;
+    background-color: red;
+}
+
+.iletisimDüzen {
+    display: flex;
+}
+
+.box {
+    flex: 1; /* Her bir div eşit genişlikte olur */
+    padding: 10px;
+    border: 0px solid #000;
+    margin: 5px;
+    
+    
+}
+
+
+.iletisimForm{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #343a40;
+    text-align: center;
+}
+
+
+.pading {
+    padding:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
